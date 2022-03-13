@@ -1,0 +1,25 @@
+.aboutImg {
+  width: 200px;
+  height: 250px;
+  display: block;
+  margin: 30px auto;
+  border-radius: 100px;
+  /* border: 1px solid red; */
+}
+
+.aboutTextMain {
+  text-align: center;
+  font-size: 30px;
+  /* border: 1px solid red; */
+}
+
+.aboutText {
+  width: 700px;
+  font-size: 17px;
+  margin: 50px auto;
+  /* border: 1px solid red; */
+}
+
+li {
+  margin-bottom: 15px;
+}

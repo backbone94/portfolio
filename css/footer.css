@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  font-size: 15px;
+  height: 50px;
+  border: 1px solid red;
+}
+
+.footerText {
+  margin: auto;
+}

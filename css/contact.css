@@ -1,0 +1,26 @@
+.contactContainer {
+  margin-bottom: 400px;
+}
+
+.contactListContainer {
+  display: flex;
+}
+
+.contactList {
+  width: 40%;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+
+.contactElement {
+  margin: 30px 0;
+  display: flex;
+  /* border: 1px solid red; */
+}
+
+.contactText {
+  height: 100%;
+  margin: auto 0;
+  margin-left: auto;
+  /* border: 1px solid red; */
+}

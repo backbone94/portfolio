@@ -1,0 +1,30 @@
+.skillList {
+  margin: 0 auto;
+  /* margin-top: 30px; */
+}
+
+.firstLine,
+.secondLine {
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 30px; */
+  /* border: 1px solid blue; */
+}
+
+.skill {
+  font-size: 20px;
+  margin-right: 30px;
+  /* border: 1px solid red; */
+}
+
+.skillText {
+  display: block;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.skillDesc {
+  /* width: 800px; */
+  /* margin: auto; */
+  border: 1px solid red;
+}

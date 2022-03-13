@@ -1,0 +1,56 @@
+.headerContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  z-index: 1;
+  background-color: gray;
+  /* border: 1px solid red; */
+}
+
+.siteNameAndMenu {
+  display: flex;
+  /* border: 1px solid red; */
+}
+
+.siteName {
+  font-size: 30px;
+  margin-right: 150px;
+  display: flex;
+  align-items: center;
+  opacity: 0.5;
+  transition: opacity 0.2s;
+  /* border: 1px solid red; */
+}
+
+.siteName:hover {
+  opacity: 1;
+  color: black;
+}
+
+.headerMenu {
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+  /* border: 1px solid red; */
+}
+
+.aboutMenu,
+.skillMenu,
+.projectMenu,
+.contactMenu {
+  cursor: pointer;
+  opacity: 0.5;
+  margin-right: 10px;
+  transition: opacity 0.2s;
+}
+
+.aboutMenu:hover,
+.skillMenu:hover,
+.projectMenu:hover,
+.contactMenu:hover {
+  opacity: 1;
+}
