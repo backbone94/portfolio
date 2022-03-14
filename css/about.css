@@ -14,7 +14,8 @@
 }
 
 .aboutText {
-  width: 700px;
+  width: 65%;
+  margin: 0 auto;
   font-size: 17px;
   margin: 50px auto;
   /* border: 1px solid red; */

@@ -1,13 +1,8 @@
-.skillList {
-  margin: 0 auto;
-  /* margin-top: 30px; */
-}
-
 .firstLine,
 .secondLine {
   display: flex;
   justify-content: center;
-  /* margin-bottom: 30px; */
+  margin: 40px;
   /* border: 1px solid blue; */
 }
 
@@ -24,7 +19,7 @@
 }
 
 .skillDesc {
-  /* width: 800px; */
-  /* margin: auto; */
-  border: 1px solid red;
+  width: 85%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
 }

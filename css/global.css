@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  background-color: black;
 }
 
 .siteName a:hover {
@@ -13,10 +13,6 @@ a:visited {
   text-decoration: none;
 }
 
-.layout {
-  /* border: 1px solid red; */
-}
-
 .aboutContainer,
 .skillContainer,
 .projectContainer,
@@ -24,12 +20,20 @@ a:visited {
   padding: 30px;
   margin: 100px auto 0;
   width: 50%;
-  border: 1px solid red;
+  border-radius: 15px;
+  font-family: "Gowun Dodum", sans-serif;
+  box-shadow: 1px 1px 20px 5px gray;
+  /* border: 1px solid red; */
+}
+
+.projectContainer {
+  width: 80%;
 }
 
 .containerTitle {
   font-size: 50px;
+  font-family: "Jua", sans-serif;
   text-align: center;
   margin-bottom: 50px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }

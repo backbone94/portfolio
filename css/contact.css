@@ -1,5 +1,5 @@
 .contactContainer {
-  margin-bottom: 400px;
+  margin-bottom: 350px;
 }
 
 .contactListContainer {
@@ -23,4 +23,8 @@
   margin: auto 0;
   margin-left: auto;
   /* border: 1px solid red; */
+}
+
+.contactText a:hover {
+  color: black;
 }
