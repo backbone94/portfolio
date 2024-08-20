@@ -1,5 +1,4 @@
-.firstLine,
-.secondLine {
+.line {
   display: flex;
   justify-content: center;
   margin: 40px;
@@ -19,7 +18,7 @@
 }
 
 .skillDesc {
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
   /* border: 1px solid red; */
 }
