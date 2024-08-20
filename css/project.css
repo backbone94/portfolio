@@ -2,17 +2,15 @@
 .movieSearch,
 .RCCar,
 .Portfolio,
-.ssalon {
+.ssalon,
+.figma-to-map {
   margin-top: 50px;
   border-radius: 10px;
   padding: 10px;
   border: 1px solid rgba(0, 0, 0, 0.322);
 }
 
-.blogTitle,
-.movieSearchTitle,
-.RCCarTitle,
-.PortfolioTitle {
+.project-title {
   font-size: 30px;
   text-align: center;
   margin-bottom: 50px;

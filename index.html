@@ -201,7 +201,7 @@
       <div class="projectContainer">
         <div class="containerTitle">Project</div>
         <div class="blog">
-          <div class="blogTitle">Blog</div>
+          <div class="project-title">Blog</div>
           <div class="projectContent">
             <div class="projectImage">
               <div class="swiper">
@@ -290,7 +290,7 @@
           </div>
         </div>
         <div class="movieSearch">
-          <div class="movieSearchTitle">Movie Search</div>
+          <div class="project-title">Movie Search</div>
           <div class="projectContent">
             <div class="projectImage">
               <div class="swiper">
@@ -367,7 +367,7 @@
           </div>
         </div>
         <div class="RCCar">
-          <div class="RCCarTitle">RC Car</div>
+          <div class="project-title">RC Car</div>
           <div class="projectContent">
             <div class="projectImage">
               <div class="swiper">
@@ -434,13 +434,13 @@
           </div>
         </div>
         <div class="ssalon">
-          <div class="RCCarTitle">살롱 | SSALON</div>
+          <div class="project-title">살롱 | SSALON</div>
           <div class="projectContent">
             <div class="projectImage">
               <div class="swiper">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <img src="./image/ssalon/ticket2.png" alt="img" width="800" height="450" />
+                    <img src="./image/ssalon/ticket.png" alt="img" width="800" height="450" />
                   </div>
                   <div class="swiper-slide">
                     <img src="./image/ssalon/overview.png" alt="img" />
@@ -496,7 +496,7 @@
               </div>
               <hr />
               <div>
-                아주대학교 소프트웨어학과의 졸업 작품입니다.
+                아주대학교 소프트웨어학과 졸업 작품입니다.<br />
                 저는 프론트엔드 개발자를 목표로 삼고 있었지만, 웹 개발자로서의 시야를 넓히기 위해 이 프로젝트에서는 백엔드 개발을 맡았습니다.
                 Spring에 익숙하지 않은 상태에서 대규모 프로젝트를 진행하는 것은 도전적인 경험이었지만,
                 이를 통해 CI/CD의 구축과 AWS EC2 인스턴스의 운영에 대해 깊이 있게 학습할 수 있었습니다.
@@ -508,6 +508,82 @@
                 또한, OpenAI의 이미지 생성 API를 활용하여 사용자에게 인터랙티브한 경험을 제공하는 기능을 구현하면서 최신 AI 기술을 실무에 적용하는 능력을 기를 수 있었습니다.
                 이 과정에서 GitHub Actions을 통한 CI/CD 파이프라인을 구축해 자동화된 배포 프로세스를 경험했고,
                 이를 통해 배포 속도와 코드 품질을 크게 향상시킬 수 있었습니다.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="figma-to-map">
+          <div class="project-title">Figma to Map Plugin</div>
+          <div class="projectContent">
+            <div class="projectImage">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./image/figma-plugin/main.png" alt="img" width="800" height="450" />
+                  </div>
+                  <div class="swiper-slide">
+                    <video
+                      width="800"
+                      height="450"
+                      src="./video/import.mp4"
+                      controls
+                    ></video>
+                  </div>
+                  <div class="swiper-slide">
+                    <video
+                      width="800"
+                      height="430"
+                      src="./video/export.mp4"
+                      controls
+                    ></video>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./image/figma-plugin/json.png" alt="img" width="800" height="450" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./image/figma-plugin/csv.png" alt="img" width="800" height="450" />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+            <div class="projectDesc">
+              <div class="desc">
+                <div class="summary">주요 기능</div>
+                <div>지도상에 Figma 컴포넌트 표시, 컴포넌트 드래그/리사이즈/회전, Figma <-> plugin 사이의 Import/Export, 지도 검색 기능 등</div>
+              </div>
+              <div class="desc">
+                <div class="summary">기술 스택</div>
+                <div>
+                  Figma Plugin API, TypeScript, React, Webpack, MUI, OpenLayers
+                </div>
+              </div>
+              <div class="desc">
+                <div class="summary">GitHub</div>
+                <a
+                  target="_blank"
+                  href="https://github.com/lee1684/figma-lonlat-plugin"
+                  >https://github.com/lee1684/figma-lonlat-plugin</a
+                >
+              </div>
+              <hr />
+              <div>
+                인턴으로서 참여한 첫 프로젝트입니다.<br />
+                프로젝트의 목표는 디자이너와 개발자 간의 협업을 지원하는 Figma에서 특정 컴포넌트를 지도상의 특정 위치에 배치하고,
+                해당 좌표를 기억할 수 있는 프로그램을 개발하는 것이었습니다.
+                이 요구사항을 충족하기 위해서는 Figma 내에서 작업을 확장하거나 자동화하는 기능을 제공하는 Figma 플러그인을 개발하는 것이
+                최적의 선택이었습니다.
+                Figma는 프론트엔드 작업 중 가끔 사용한 경험이 있었지만,
+                플러그인을 직접 개발한 것은 처음이었기에 이번 인턴십이 매우 뜻깊은 경험이 되었다고 생각합니다.
+                이 프로젝트를 통해 Figma의 사용법에 익숙해졌고, 앞으로 디자이너와의 협업이 더 원활할 것이라는 자신감도 얻게 되었습니다.<br /><br />
+
+                Figma Plugin API를 사용하여 플러그인의 기본 기능들을 구성하였으며,
+                Figma와 (Webpack + TypeScript + React) 간의 원활한 조화를 위해
+                이미 번들링 설정이 되어 있는 보일러플레이트(<a target="_blank" href="https://techblog.woowahan.com/8339/"><span style="color: crimson;">출처</span></a>)를 사용하였습니다.
+                또한, 지도를 표시하기 위해 OpenLayers 라이브러리를 사용하였고,
+                Nominatim 라이브러리를 통해 지도 검색 기능을 구현하였으며, MUI 라이브러리를 활용해 UI를 개선했습니다.
               </div>
             </div>
           </div>
